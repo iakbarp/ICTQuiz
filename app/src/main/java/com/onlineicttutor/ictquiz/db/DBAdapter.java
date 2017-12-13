@@ -104,10 +104,10 @@ public class DBAdapter extends SQLiteOpenHelper {
     {
         //format is question-option1-option2-option3-option4-answer
 
-        Question q1=new Question("Whis is Internet Protocol","TCP/IP", "UDP", "NetBIEU", "Arpanet","TCP/IP");
+        Question q1=new Question("Whis is Internet Protocol","PRO", "UDP", "NetBIEU", "Arpanet","PRO");
         this.addQuestion(q1);
 
-        Question q2=new Question("IP is","Internet Program ", "Internet Protocol", "Intranet Protocol", "Internet Policy ","Internet Protocol");
+        Question q2=new Question("IP is","Internet Program ", "IN", "Intranet Protocol", "Internet Policy ","IN");
         this.addQuestion(q2);
 
         Question q3=new Question("TCP is ","Technology Control Policy", "Transmission Control Protocol", "Transfer Currency Identity Policy ", "Term of Internet Protocol","Transmission Control Protocol");
