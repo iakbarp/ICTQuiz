@@ -104,11 +104,7 @@ public class DBAdapter extends SQLiteOpenHelper {
     {
         //format is question-option1-option2-option3-option4-answer
 
-<<<<<<< HEAD
-        Question q1=new Question("Whis is Internet Protocol","PRO", "UDP", "NetBIEU", "Arpanet","PRO");
-=======
         Question q1=new Question("Whis is Internet Protocol A","PRO", "UDP", "NetBIEU", "Arpanet","PRO");
->>>>>>> first commit
         this.addQuestion(q1);
 
         Question q2=new Question("IP is","Internet Program ", "IN", "Intranet Protocol", "Internet Policy ","IN");
